@@ -1,4 +1,3 @@
-<![CDATA[/*
 -----------------------------------------------
 Blogger Template Style
 Name:         SeoFlex
@@ -6,8 +5,6 @@ Version:      1.0.0 - Free
 Author:       Pro Blogger Templates
 Author Url:   https://probloggertemplates.com/
 -----------------------------------------------*/
-
-/*-- Customize Options (Start) --
 <Variable name="keycolor" description="Main Color" type="color" default="#6366f1" value="#6366f1"/>
 <Group description="Layout Options" selector="body">
     <Variable name="boxedMode" description="Enable Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
@@ -75,7 +72,6 @@ Author Url:   https://probloggertemplates.com/
 <Variable name="body.action.font.large" description="Comments Font 2" hideEditor="true" type="font" default="normal 700 16px inter, roboto, sans-serif !important"  value="normal 700 16px inter, roboto, sans-serif !important"/>
 -- Customize Options (End) --*/
 
-/*-- CSS Variables --*/
 :root{
 --body-font:$(main.font.family), sans-serif;
 --menu-font:$(main.font.family), sans-serif;
@@ -127,10 +123,8 @@ html.rtl{
 --text-font:Cairo, sans-serif;
 }
 
-/*-- Reset CSS --*/
 html,body,a,abbr,acronym,address,applet,b,big,blockquote,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,input,button,h1,h2,h3,h4,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;margin:0;border:0;vertical-align:baseline;background:0 0;text-decoration:none}dl,ul{list-style-position:inside;list-style:none}ul li{list-style:none}caption{text-align:center}img{border:none;position:relative}a,a:visited{text-decoration:none}.clearfix{clear:both}.section,.widget,.widget ul{margin:0;padding:0}a{color:var(--accent-color)}a img{border:0}abbr{text-decoration:none}.separator a{text-decoration:none!important;clear:none!important;float:none!important;margin-left:0!important;margin-right:0!important}#Navbar1,#navbar-iframe,.widget-item-control,a.quickedit,.home-link,.feed-links{display:none!important}.center{display:table;margin:0 auto;position:relative}.widget > h2,.widget > h3{display:none}.widget iframe,.widget img{max-width:100%}button,input,select,textarea{background:transparent;font-family:var(--body-font);font-weight:normal;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none;border:0;border-radius:0}button{cursor:pointer}input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}.rtl{direction:rtl}iframe[src*="youtube.com"]{width:100%;height:auto;aspect-ratio:16/9}
 
-/*-- Main CSS --*/
 *{box-sizing:border-box}
 *:after,*:before{display:inline-block;font-family:var(--icon-font);font-weight:400;font-style:normal;box-sizing:border-box}
 html{position:relative;font-size:16px;word-break:break-word;word-wrap:break-word;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
@@ -869,4 +863,3 @@ ins.adsbygoogle-noablate[data-anchor-shown="true"]{z-index:990!important}
 .featured-post .entry-title{font-size:1.25rem}
 .consent-button{width:100%}
 }
-]]>
